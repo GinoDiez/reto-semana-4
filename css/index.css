@@ -76,3 +76,7 @@
     background-color: var(--color-theme3);
     color: var(--color-letter2);
 }
+
+.main{
+    width: 100%;
+}
