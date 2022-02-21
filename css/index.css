@@ -80,3 +80,63 @@
 .main{
     width: 100%;
 }
+
+.inicio{
+    background-color: var(--color-theme4);
+    color: var(--color-letter);
+    padding: 5rem 0;
+}
+
+.inicio__container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0 2rem;
+}
+
+.inicio__title{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.inicio__subtitle{
+   color: var(--color-letter3);
+   font-size: 1.3rem;
+}
+
+.inicio__form-search{
+    display: flex;
+    margin: auto;
+    max-width: 500px;
+}
+
+.inicio__form-search-place{
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.inicio__form-search-button{
+    width: 70px;
+    background-color: var(--color-theme2);
+    color: var(--color-letter);
+    padding: 10px 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.inicio_link-information{
+    color: var(--color-letter);
+    font-weight: bold;
+}
