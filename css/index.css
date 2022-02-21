@@ -297,3 +297,44 @@
     width: 100%;
     border-radius: 8px;
 }
+
+.registrar{
+    background-color: var(--color-theme4);
+    color: var(--color-letter);
+    padding: 2rem 0;
+}
+
+.registrar__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.registrar__title{
+    font-size: 2rem;
+}
+
+.registrar__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 1rem;
+    width: 250px;
+}
+
+.registrar__input{
+    max-width: 100%;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 0;
+}
+
+.registrar__button{
+    max-width: 100%;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 0;
+}
