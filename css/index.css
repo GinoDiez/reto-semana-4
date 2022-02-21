@@ -338,3 +338,94 @@
     border-radius: 8px;
     border: 0;
 }
+
+@media (min-width: 854px){
+    .inicio{
+        background-color: var(--color-theme4);
+        color: var(--color-letter);
+        padding: 7rem 0;
+    }
+
+    .inicio__form-search{
+        display: flex;
+        margin: auto;
+        max-width: 500px;
+    }
+    
+    .inicio__form-search-place{
+        padding: 10px 16px;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 500;
+        border: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 700px;
+        transition: all 0.5s;
+    }
+    
+    .inicio__form-search-button{
+        width: 70px;
+        background-color: var(--color-theme2);
+        color: var(--color-letter);
+        padding: 10px 8px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: 0;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        transition: all 0.5s;
+    }
+
+    .inicio__form-search-button:hover{
+        background-color: #03633f;
+    }
+
+    .inicio_link-information{
+        color: var(--color-letter);
+        font-weight: bold;
+        transition: all 0.5s;
+    }
+
+    .inicio_link-information:hover{
+        color: #FFC0C7;
+    }
+
+    .cursos__curso,
+    .cursos__curso1,
+    .cursos__curso2,
+    .cursos__curso3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 2rem 0;
+        width: 100%;
+    }
+
+    .areas{
+        background: linear-gradient(rgba(5,7,12,0.8), rgba(5,7,12,0.8)), url(https://cdn.bhdw.net/im/programming-coding-language-papel-pintado-81236_w635.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        color: var(--color-letter);
+        padding: 2.5rem 0;
+    }
+
+    .areas__areas-list{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        align-self: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .areas__area{
+        padding: 0.5rem;
+        transition: all 0.5s;
+    }
+
+    .areas__area:hover{
+        background-color: var(--color-letter1);
+    }
+}
