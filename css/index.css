@@ -10,3 +10,11 @@
     --color-theme4: #282A35;
     --color-box-shadow: #04AA6D;
 }
+
+.body{
+    background-color: var(--color-theme1);
+    color: var(--color-letter1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+}
