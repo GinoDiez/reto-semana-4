@@ -10,6 +10,146 @@
 </head>
 
 <body class="body">
-    
+    <header class="header">
+        <nav class="header-nav">
+            
+            <figure class="header-nav__image-container">
+                <img src="https://cdn-icons.flaticon.com/png/512/2471/premium/2471028.png?token=exp=1645371394~hmac=f7641c012cd1a46e89f69e7de4461fe7" alt="Logo de página" class="header-nav__image" />
+            </figure>
+            
+            <ul class="header-nav__links-list">
+                <li class="header-nav__link-link">
+                    <a href="#inicio" class="header-nav__link-item">Inicio</a>
+                </li>
+                <li class="header-nav__link-link" id="#cursos">
+                    <a href="#cursos" class="header-nav__link-item">Cursos</a>
+                </li>
+                <li class="header-nav__link-link" id="#areas">
+                    <a href="#areas" class="header-nav__link-item">Áreas</a>
+                </li>
+                <li class="header-nav__link-link">
+                    <a href="#registrar" class="header-nav__link-inicio-sesion">Regístrate</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="main">
+
+        <section class="inicio" id="inicio">
+            <div class="inicio__container">
+                <h1 class="inicio__title">Aprende a Programar</h1>
+                <h2 class="inicio__subtitle">Información completa y gratuita!</h2>
+                <form action="/" class="inicio__form-search">
+                    <input type="text" placeholder="Encuentra tus cursos" class="inicio__form-search-place"/>
+                    <button class="inicio__form-search-button">Buscar</button>
+                </form>
+                <a href="&" class="inicio_link-information">Seguir leyendo</a>
+            </div>
+        </section>
+
+        <section class="cursos" id="cursos">
+            <div class="cursos__container">
+                <div class="cursos__cursos">
+                    <div class="cursos__curso">
+                        <div class="cursos__information">
+                            <h2 class="cursos__title">HTML</h2>
+                            <h3 class="cursos__subtitle">Lenguaje para construir páginas web</h3>
+                            <div class="cursos__links-link">
+                                <a href="/" class="cursos__link-information">Leer más</a>
+                                <a href="/" class="cursos__link-information">Aprender HTML</a>
+                            </div>
+                        </div>
+
+                        <figure class="cursos__logo-image-container">
+                            <img src="https://www.alura.com.br/artigos/assets/html-css-js/imagem-1.png" alt="HTML5" class="cursos__logo-image" />
+                        </figure>
+                    </div>
+
+                    <div class="cursos__curso1">
+                        <div class="cursos__information1">
+                            <h2 class="cursos__title1">CSS</h2>
+                            <h3 class="cursos__subtitle1">Lenguaje de estilos para páginas web</h3>
+                            <div class="cursos__links-link1">
+                                <a href="/" class="cursos__link-information1">Leer más</a>
+                                <a href="/" class="cursos__link-information1">Aprender CSS</a>
+                            </div>
+                        </div>
+
+                        <figure class="cursos__logo-image-container1">
+                            <img src="https://lineadecodigo.com/wp-content/uploads/2014/04/css.png" alt="CSS3" class="cursos__logo-image1" />
+                        </figure>
+                    </div>
+
+                    <div class="cursos__curso2">
+                        <div class="cursos__information2">
+                            <h2 class="cursos__title2">Javascript</h2>
+                            <h3 class="cursos__subtitle2">Lenguaje de programación para páginas web</h3>
+                            <div class="cursos__links-link2">
+                                <a href="/" class="cursos__link-information2">Leer más</a>
+                                <a href="/" class="cursos__link-information2">Aprender JS</a>
+                            </div>
+                        </div>
+
+                        <figure class="cursos__logo-image-container2">
+                            <img src="https://usefulangle.com/img/thumb/javascript.png" alt="Javascript" class="cursos__logo-image2" />
+                        </figure>
+                    </div>
+
+                    <div class="cursos__curso3">
+                        <div class="cursos__information3">
+                            <h2 class="cursos__title3">PHP</h2>
+                            <h3 class="cursos__subtitle3">Lenguaje ideal para bases de datos</h3>
+                            <div class="cursos__links-link3">
+                                <a href="/" class="cursos__link-information3">Leer más</a>
+                                <a href="/" class="cursos__link-information3">Aprender PHP</a>
+                            </div>
+                        </div>
+
+                        <figure class="cursos__logo-image-container3">
+                            <img src="https://miro.medium.com/max/256/1*ib4uel1Wl9FcZX-uQOrTIw.jpeg" alt="PHP" class="cursos__logo-image3" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="areas" id="areas">
+            <div class="areas__container">
+                <h1 class="areas__title">Areas de estudio</h1>
+                <ul class="areas__areas-list">
+                    <li class="areas__area">Programación</li>
+                    <li class="areas__area">I.O.T.</li>
+                    <li class="areas__area">I.A.</li>
+                    <li class="areas__area">Electrónica</li>
+                    <li class="areas__area">Ciberseguridad</li>
+                    <li class="areas__area">Robótica</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="registrar" id="registrar">
+            <div class="registrar__container">
+                <h2 class="registrar__title">Regístrate gratis</h2>
+                <form action="%" class="registrar__form">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" class="registrar__input" />
+                    <br/>
+                    <input type="text" id="apellido" name="apellido" placeholder="Apellido Completo" class="registrar__input" />
+                    <br/>
+                    <input type="number" id="celular" name="celular" placeholder="Celular" class="registrar__input" />
+                    <br/>
+                    <input type="text" id="email" name="email" placeholder="Correo electrónico" class="registrar__input" />
+                    <br/>
+                    <button class="registrar__button" id="registro">Registrar</button>
+                    <br/>
+                    Desarrollado por Gino Diez &copy; 2022
+                </form>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="./js/index.js" type="module"></script>
 </body>
 </html>
