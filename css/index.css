@@ -18,3 +18,61 @@
     text-align: center;
     margin: 0;
 }
+
+.header{
+    background-color: var(--color-theme1);
+    box-shadow: 0 0.2rem 0.2rem 0 var(--color-box-shadow);
+    top: 0;
+    z-index: 100;
+    position: sticky;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.header-nav__image-container{
+    max-width: 55px;
+    margin: 0.7rem;
+}
+
+.header-nav__image{
+    width: 100%;
+}
+
+.header-nav__links-list{
+    display: flex;
+    gap: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav__link-link{
+    list-style: none;
+    font-weight: bold;
+}
+
+.header-nav__link-item{
+    text-decoration: none;
+    color:var(--color-letter1);
+}
+
+.header-nav__link-inicio-sesion{
+    text-decoration: none;
+    background-color: var(--color-theme2);
+    border-radius: 8px;
+    padding: 0.4rem;
+    color: var(--color-letter);
+    transition: all 0.5s;
+}
+
+.header-nav__link-inicio-sesion:hover{
+    background-color: var(--color-theme3);
+    color: var(--color-letter2);
+}
